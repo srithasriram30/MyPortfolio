@@ -1,0 +1,6 @@
+#personalPhoto{
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid black;
+  margin:5px;
+}
