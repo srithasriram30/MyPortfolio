@@ -5,11 +5,15 @@
   margin:5px;
 }
 
-.col-9, .col-3 {
+.contact {
   border: 1px solid black;
 }
 
 .social-media {
   height: 25px;
   margin: 5px;
+}
+
+h2{
+  text-align: center;
 }
