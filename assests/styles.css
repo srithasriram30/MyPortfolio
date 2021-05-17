@@ -5,8 +5,9 @@
   margin:5px;
 }
 
-.contact {
+.content {
   border: 1px solid black;
+  padding: 1em;
 }
 
 .social-media {
@@ -17,6 +18,8 @@
 #main{
   text-align: center;
   font-family: 'Niramit', sans-serif;
+  background-image: url("C:/Users/Sritha/Coding/portfolio/assests/computer-1836330_1920.png");
+
 }
 
 h2{
@@ -24,6 +27,15 @@ h2{
 }
 
 body {
-  background-color: #F5F7F3;
+  background-color: #F4F3F0;
   color: #1F1521;
+}
+
+.tagline{
+  color: #222F4A;
+  background-color: rgba(244, 243, 240,0.75);
+  height: 250px;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; 
 }
