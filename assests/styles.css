@@ -18,7 +18,7 @@
 #main{
   text-align: center;
   font-family: 'Niramit', sans-serif;
-  background-image: url("C:/Users/Sritha/Coding/portfolio/assests/computer-1836330_1920.png");
+  /* background-image: url("C:/Users/Sritha/Coding/portfolio/assests/computer-1836330_1920.png"); */
 
 }
 
@@ -32,10 +32,16 @@ body {
 }
 
 .tagline{
-  color: #222F4A;
+  /* color: #222F4A;
   background-color: rgba(244, 243, 240,0.75);
-  height: 250px;
   display: flex;
-  justify-content: center; /* align horizontal */
-  align-items: center; 
+  justify-content: center;
+  flex-direction: column;
+  height: 250px; */
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 250px;
+
 }
