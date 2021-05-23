@@ -4,7 +4,3 @@ function sendMail() {
 
     console.log(msg);
 }
-
-$( document ).ready(function() {
-    console.log( "ready!" );
-});

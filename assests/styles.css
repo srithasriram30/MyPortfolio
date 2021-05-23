@@ -31,33 +31,56 @@ body {
   color: #1F1521;
 }
 
-.tagline{
-  /* color: #222F4A;
-  background-color: rgba(244, 243, 240,0.75);
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  height: 250px; */
 
+#typewriter {
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: .1em solid black;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em;
+  /* Adjust as needed */
+  animation: typing 5.5s steps(40) infinite, blink-caret 0.75s step-end infinite;
+  -o-animation: typing 5.5s steps(40) infinite, blink-caret 0.75s step-end infinite;
+  -moz-animation: typing 5.5s steps(40) infinite, blink-caret 0.75s step-end infinite;
+  -webkit-animation: typing 5.5s steps(40) infinite, blink-caret 0.75s step-end infinite;
 }
 
-.typewriter h3 {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation:
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
-}
 
+@-webkit-keyframes typing {
+  from { max-width: 0 }
+  to { max-width: 100% }
+}
+@-moz-keyframes typing {
+  from { max-width: 0 }
+  to { max-width: 100% }
+}
+@-o-keyframes typing {
+  from { max-width: 0 }
+  to { max-width: 100% }
+}
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from { max-width: 0 }
+  to { max-width: 100% }
+
 }
 
+@-webkit-keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}
+@-moz-keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}
+@-o-keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: orange; }
+  50% { border-color: black; }
 }
